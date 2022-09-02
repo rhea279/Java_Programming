@@ -1,0 +1,15 @@
+//Calculate Surface Area of Cylinder
+import java.util.Scanner;
+public class Cylinder{
+public static void main(String[ ] args){
+	int r,h;
+	double pi= 3.14, area;
+	Scanner sc = new Scanner(System.in);
+	System.out.print("Enter Radius of Cylinder : ");
+	r = sc.nextInt();
+	System.out.print("Enter Height of Cylinder : ");
+	h = sc.nextInt();
+	area=(2*pi*h)+(2*pi*r*r);
+	System.out.print("Surface Area of cylinder : "+area);
+}
+}
