@@ -1,0 +1,15 @@
+//Calculate the area of Triangle
+import java.util.Scanner;
+public class Triangle{
+public static void main(String[ ] args){
+	float h, l;
+	float area;
+	Scanner sc = new Scanner(System.in);
+	System.out.print("Enter height of  Triangle : ");
+	h = sc.nextFloat();
+	System.out.print("Enter base of Triangle : ");
+	l = sc.nextFloat();
+	area=h*l*0.5f;
+	System.out.print("Area of Triangle : "+area);
+	}
+}
