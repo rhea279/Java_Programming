@@ -1,0 +1,14 @@
+//Calculate Volume of Sphere
+import java.util.Scanner;
+public class SphereV{
+public static void main(String[ ] args){
+	int r;
+	double volume, v=4/3,pi=3.14;
+	Scanner sc = new Scanner(System.in);
+	System.out.print("Enter Radius of Sphere : ");
+	r = sc.nextInt();
+	volume=v*pi*r*r; 
+	System.out.print("Volume of Sphere : "+volume);
+
+}
+}
