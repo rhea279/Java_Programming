@@ -1,0 +1,12 @@
+//Calculate Area of Square
+import java.util.Scanner;
+public class Square{
+public static void main(String[ ] args){
+	int s,area; 
+	System.out.print("Enter measure of side : ");
+	Scanner sc = new Scanner(System.in);
+	s = sc.nextInt();
+	area=s*s;
+	System.out.println("Area of Square : "+area);
+	}
+}
