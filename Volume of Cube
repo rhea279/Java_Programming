@@ -1,0 +1,12 @@
+//Calculate Volume of Cube
+import java.util.Scanner;
+public class CubeV{
+public static void main(String[ ] args){
+	int s, volume;
+	Scanner sc = new Scanner(System.in);
+	System.out.print("Enter side of Cube : ");
+	s = sc.nextInt();
+	volume = s*s*s;
+	System.out.print("Volume of Cube : "+volume);
+}
+}
