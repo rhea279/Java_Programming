@@ -2,7 +2,7 @@
 //1.Take values of length and breadth of a rectangle from user and check if it is square or not.
 //Code:
 import java.util.Scanner;
-class square(){
+class square{
 public static void main(String[ ] args){
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Enter length of rectangle : ");	
@@ -21,7 +21,7 @@ public static void main(String[ ] args){
 }
 //2.Take two int values from user and print greatest among them.
 //Code:
-class greatest(){
+class greatest{
 public static void main(String[ ] args){
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Enter first number : ");	
@@ -43,7 +43,7 @@ Ask user for quantity
 Suppose, one unit will cost 100.
 Judge and print total cost for user.
 Code:*/
-class cost(){
+class cost{
 public static void main(String[ ] args){
 	Scanner sc = new Scanner(System.in);
 	double total;
@@ -62,7 +62,7 @@ public static void main(String[ ] args){
 /*4. A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years.
 Ask user for their salary and year of service and print the net bonus amount.
 Code:*/
-class bonus(){
+class bonus{
 public static void main(String[ ] args){
 	Scanner sc = new Scanner(System.in);
 	double salary, year, bonus;
@@ -90,7 +90,7 @@ e. 60 to 80 - B
 f. Above 80 - A
 Ask user to enter marks and print the corresponding grade.
 Code:*/
-class grade(){
+class grade{
 public static void main(String[ ] args){
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Enter your marks : ");
